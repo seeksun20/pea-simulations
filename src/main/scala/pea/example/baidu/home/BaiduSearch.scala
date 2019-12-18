@@ -36,7 +36,7 @@ class BaiduSearch extends PeaSimulation {
   )
 
   // 创建场景
-  val homeScn = scenario("百度首页检索").exec(search)
+  val homeScn = scenario("百度首页检索测试").exec(search)
 
   // 设置虚拟用户数
   setUp(
