@@ -40,6 +40,6 @@ class BaiduSearch extends PeaSimulation {
 
   // 设置虚拟用户数
   setUp(
-    homeScn.inject(constantUsersPerSec(1000) during (1 hour))
+    homeScn.inject(constantUsersPerSec(500) during (30 seconds))
   ).protocols(httpProtocol)
 }
